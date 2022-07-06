@@ -11,12 +11,12 @@ import { Sobre } from "./Pages/Sobre";
 
   return (
     <Routes>
-      <Route path="/" element={<InicialPage/>}/>
-      <Route path="/Home" element={<Home/>}/>
-      <Route path="/Home/Project" element={<Project/>}/>
-      <Route path="/Home/Contato" element={<Contato/>}/>
-      <Route path="/Home/Tecnologias" element={<Tecnologias/>} />
-      <Route path="/Home/Sobre" element={<Sobre/>} />
+      <Route path="/deploying-vite-project-example/" element={<InicialPage />} />
+      <Route path="/deploying-vite-project-example/Home" element={<Home />} />
+      <Route path="/deploying-vite-project-example/Home/Project" element={<Project />} />
+      <Route path="/deploying-vite-project-example/Home/Contato" element={<Contato />} />
+      <Route path="/deploying-vite-project-example/Home/Tecnologias" element={<Tecnologias />} />
+      <Route path="/deploying-vite-project-example/Home/Sobre" element={<Sobre />} />
     </Routes>
   )
 }
