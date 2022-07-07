@@ -1,22 +1,14 @@
-
 import './Stylles.scss';
-import Logo from '../../Assets/logo.png';
 import { Link } from 'react-router-dom';
-import { Home } from '../Home/Index';
-import { Player, Audio, Controls, PlaybackControl } from '@vime/react';
 
 export function InicialPage() {
-  return(
+  return (
     <body>
       <div className='inicial-page'>
-
         <Link to={'Home'}>
-        <div className='div-principal'></div>
+          <div className='div-principal'></div>
         </Link>
-        
-
       </div>
     </body>
-  )
-
+  );
 }

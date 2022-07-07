@@ -1,13 +1,13 @@
 import { InicialPage } from "./Pages/InicialPage/index";
 import './globals.scss';
-import { Home } from './Pages/Home/Index';
+import { Home } from './Pages/Home';
 import { Route, Routes } from "react-router-dom";
 import { Project } from "./Pages/Projeto/index";
 import Contato from "./Pages/Contato/index";
 import { Tecnologias } from "./Pages/tecnologias/index";
 import { Sobre } from "./Pages/Sobre";
 
- function Rotas() {
+function Rotas() {
 
   return (
     <Routes>

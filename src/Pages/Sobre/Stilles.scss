@@ -21,16 +21,9 @@
       margin-top: 0px;
       font-weight: 700;
     }
-    .P-1{
-      animation: DisappearWhite 1s;
-    }
-    .P-2{
-      animation: DisappearRed 1.5s; 
-    }
     .P-3{
       display: flex;
       margin-top: -20px;
-       animation: DisappearWhite 2s;
     }
     strong{
       font-family: 'Blanka';
@@ -153,61 +146,10 @@
     height: 200vh;
    
   }
+  
   .Paragrafo{
     font-size: 25px;
   }
-}
-@keyframes DisappearWhite {
-  0%{
-    color: rgba(253, 253, 253, 0);
-    margin-right: 20px;
-  }
-  25%{
-    color: rgba(253, 253, 253, 0.205);
-    margin-right: 15px;
-  }
-  50%{
-    color: rgba(253, 253, 253, 0.425);
-    margin-right: 10px;
-  }
-  75%{
-    color: rgba(253, 253, 253, 0.63);
-    margin-right: 5px;
-  }
-  100%{
-    color: rgb(211, 212, 212);
-    margin-right: 0px;
-  }
-}
-@keyframes DisappearRed {
-  0%{
-    background: -webkit-linear-gradient(100deg, #3d000000, #a7000005);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-right: 20px;
-  }
-  25%{
-    background: -webkit-linear-gradient(100deg, #3d000048, #a7000048);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-right: 15px;
-  }
-  50%{
-    background: -webkit-linear-gradient(100deg, #3d00007a, #a7000079);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-right: 10px;
-  }
-  75%{
-    background: -webkit-linear-gradient(100deg, #3d000079, #a7000086);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-right: 5px;
-  }
-  100%{
-    background: -webkit-linear-gradient(100deg, #3d0000, #a70000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-right: 0px;
-  }
+  
+ 
 }
