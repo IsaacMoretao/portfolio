@@ -1,4 +1,4 @@
-import './Stylle.scss'
+import './Stylle.scss';
 
 interface data {
   Name: string;

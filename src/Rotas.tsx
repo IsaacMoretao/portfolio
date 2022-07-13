@@ -11,12 +11,12 @@ function Rotas() {
 
   return (
     <Routes>
-      <Route path="/deploying-vite-project-example/" element={<InicialPage />} />
-      <Route path="/deploying-vite-project-example/Home" element={<Home />} />
-      <Route path="/deploying-vite-project-example/Home/Project" element={<Project />} />
-      <Route path="/deploying-vite-project-example/Home/Contato" element={<Contato />} />
-      <Route path="/deploying-vite-project-example/Home/Tecnologias" element={<Tecnologias />} />
-      <Route path="/deploying-vite-project-example/Home/Sobre" element={<Sobre />} />
+      <Route path="/portfolio/" element={<InicialPage />} />
+      <Route path="/portfolio/Home" element={<Home />} />
+      <Route path="/portfolio/Home/Project" element={<Project />} />
+      <Route path="/portfolio/Home/Contato" element={<Contato />} />
+      <Route path="/portfolio/Home/Tecnologias" element={<Tecnologias />} />
+      <Route path="/portfolio/Home/Sobre" element={<Sobre />} />
     </Routes>
   )
 }

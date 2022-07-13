@@ -1,11 +1,18 @@
+
 .Project {
   background: url('../../assets/background-Stars.jpg') no-repeat center center;
-  height: 100vh;
-  overflow-y: hidden;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  overflow-x: hidden;
   overflow-y: hidden;
 
   main {
     overflow-y: hidden;
+    overflow-y: hidden;
+  }
+  
+  html{
     overflow-y: hidden;
   }
 }
@@ -38,13 +45,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90.5vh;
+  height: 85%;
   width: 100%;
-  background: #13131383;
+  background: #13131300;
   z-index: none;
 
   img {
-    height: 90vh;
+    height: 98%;
     mix-blend-mode: overlay;
 
   }

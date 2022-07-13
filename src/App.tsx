@@ -9,8 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{ position: 'absolute' }}>
-        <Music />
+      <div className='divMusic' style={{position: 'absolute', marginLeft: '25%'}}>
+        <Music/>
       </div>
       <BrowserRouter>
         <Rotas />

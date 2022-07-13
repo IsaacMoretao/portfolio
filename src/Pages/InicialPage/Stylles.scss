@@ -5,7 +5,9 @@
   background: url('../../assets/BackGround-inicial.png') no-repeat  center  center ;
   background-size: cover;
   height: 100vh;
+  width: 100%;
   z-index: 1000;
+  position: absolute;
 }
 
 .div-principal{

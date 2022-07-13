@@ -2,25 +2,20 @@ import './Stylle.scss';
 import { Link } from 'react-router-dom';
 import { CaretCircleLeft, Envelope, Phone } from 'phosphor-react';
 import logo from '../../Assets/logo.png';
-import { Player, Audio, Controls, PlaybackControl } from '@vime/react';
-
 
 export function Contato() {
-
-
 
 return(
 <div className='todoCont'>
 
   <header className='header-contato'>
-    <Link to="/Home">
+    <Link to="/portfolio/Home">
       <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />
     </Link>
 
-
     <strong>vamos trabalhar <span>juntos?</span></strong>
 
-    <Link to='/'>
+    <Link to='/portfolio/'>
       <img src={logo} alt="" style={{height: '50px', marginRight: '20px'}} />
     </Link>
 

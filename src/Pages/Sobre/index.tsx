@@ -2,25 +2,25 @@ import './Stilles.scss';
 import Pessoa from '../../Assets/pessoa.png';
 import { Usados } from '../../Components/MaisUsados/index';
 import { Link } from 'react-router-dom';
+
 import { CaretCircleLeft } from 'phosphor-react';
 import Isaac from '../../Assets/Isaac.png';
 import logo from '../../Assets/logo.png';
-import { Player, Audio, Controls, PlaybackControl } from '@vime/react';
 
 export function Sobre() {
 return(
 
 <body className='Color'>
   <header className='headerProjects'>
-    <Link to='/Home'>
+    <Link to='/portfolio/Home'>
     <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />
     </Link>
 
-    <Link to='/Home/contato'>
+    <Link to='/portfolio/Home/contato'>
     <img src={Isaac} alt="Logo-Isaac" />
     </Link>
 
-    <Link to='/'>
+    <Link to='/portfolio/'>
     <img src={logo} alt="" />
     </Link>
 
@@ -57,12 +57,14 @@ return(
 
       <Usados Name={'Programação'} text={'Expecialização: ReactJS '}
         br={<br />}
-        textDois={' Objetivo: Engressar no mercado de programadores atraves do front-End'} margin={'150px'} />
+        textDois={' Experiência com montagens Web com ReactJs e NextJs'} margin={'150px'} />
 
       <Usados Name={'Isaac'} text={'idade: 17'} textDois={'Cidade: Arujá-SP'} margin={'0'} />
 
       <Usados Name={'Work'} text={'Trabalho como freelancer junto com "Caio Cezar" , fazendo o front-END'}
         margin={'150px'} />
+
+      <Usados Name={'Objetivo'} text={'Conseguir a primeira vaga como programador Front-End'} br={<br/>} textDois={''} margin={'0'} />
 
     </div>
 

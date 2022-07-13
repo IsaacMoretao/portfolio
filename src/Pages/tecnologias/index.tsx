@@ -2,15 +2,16 @@ import { CaretCircleLeft } from 'phosphor-react';
 import { Link } from 'react-router-dom';
 import Isaac from '../../Assets/Isaac.png';
 import logo from '../../Assets/logo.png';
+
 import html from '../../Assets/html-5.png';
 import css from '../../Assets/css-3.png';
 import js from '../../Assets/js.png';
 import typescript from '../../Assets/typescript.png';
+
 import react from '../../Assets/structure.png';
 import Next from '../../Assets/free_icon_1.svg';
 import scss from '../../Assets/sass.png';
 import tailwind from '../../Assets/tailwind-css.png';
-import { Player, Audio, Controls, PlaybackControl } from '@vime/react';
 
 import './Stylles.scss';
 import { Usados } from '../../Components/MaisUsados';
@@ -22,15 +23,15 @@ export function Tecnologias() {
     <body>
       <div className='BodyTec'>
       <header className='headerProjects'>
-        <Link to='/Home' >
+        <Link to='/portfolio/Home' >
          <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />
         </Link>
         
-        <Link to='/Home/contato'>
+        <Link to='/portfolio/Home/contato'>
           <img src={Isaac} alt="Logo-Isaac" />
         </Link>
         
-        <Link to='/'>
+        <Link to='/portfolio/'>
           <img src={logo} alt="" />
         </Link>
         

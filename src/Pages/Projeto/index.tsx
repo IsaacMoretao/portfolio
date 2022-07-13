@@ -1,12 +1,13 @@
 import './Stylle.scss';
 import ReactJs from '../../Assets/React-icon.png';
 import { Projeto } from '../../Components/project/Index';
+
 import { useEffect, useState } from 'react';
-import Isaac from '../../Assets/Isaac.png'
-import logo from '../../Assets/logo.png'
+import Isaac from '../../Assets/Isaac.png';
+import logo from '../../Assets/logo.png';
+
 import { CaretCircleLeft } from 'phosphor-react';
 import { Link } from 'react-router-dom';
-import { Player, Audio, Controls, PlaybackControl } from '@vime/react';
 
 type Repository = {
   name: string;
@@ -26,19 +27,19 @@ export function Project() {
       })
     }, [])
   return(
-  <body>
+  <body className="Project">
     <div className="Project">
 
       <header className='headerProjects'>
-        <Link to='/Home' >
+        <Link to='/portfolio/Home' >
          <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />
         </Link>
         
-        <Link to='/Home/contato'>
+        <Link to='/portfolio/Home/contato'>
           <img src={Isaac} alt="Logo-Isaac" />
         </Link>
         
-        <Link to='/'>
+        <Link to='/portfolio/'>
           <img src={logo} alt="" />
         </Link>
         
