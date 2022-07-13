@@ -43,21 +43,21 @@ export function Project() {
           <img src={logo} alt="" />
         </Link>
         
-        </header>
+      </header>
 
 
-        <div className='backGround-react'>
-          <img src={ReactJs}/>
-        </div>
-          <div className='Repositorios'>
-            {repositories.map (repo => {
-            return (
-              
-              <Projeto key={repo.name} Title={repo.name} Paragrafo={repo.description} url={repo.clone_url}/>
-              
-            )
-          })}
-        </div>
+      <div className='backGround-react'>
+        <img src={ReactJs}/>
+      </div>
+      <div className='Repositorios'>
+          {repositories.map (repo => {
+          return (
+            
+            <Projeto key={repo.name} Title={repo.name} Paragrafo={repo.description} url={repo.clone_url}/>
+          
+          )
+        })}
+      </div>
         
     </div>
   </body>

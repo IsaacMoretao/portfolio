@@ -31,7 +31,7 @@ return(
 
     <article >
       <p className='P-1'>
-        Olá! me chamo <br />
+        Olá! Me chamo <br />
       </p>
       <strong className='P-2'>
         Isaac Moretao
