@@ -1,10 +1,10 @@
 .Color{
-  background: rgb(41, 41, 41);
+  background: #292929;
 }
 .Sobre{
   position: relative;
   min-height: 80vh;
-  color: rgb(211, 212, 212);
+  color: #d3d4d4;
   display: flex;
   box-shadow: #00000070 0px 10px 10px;
   z-index: 10;
@@ -55,7 +55,7 @@
     div{
       position: absolute;
       border-radius: 10px;
-      border: 8px solid rgb(117, 0, 0);
+      border: 8px solid #750000;
       box-shadow: #ff0000 7px 7px 30px;
       width: 200px;
       height: 350px;
@@ -80,7 +80,7 @@
 .MaisSobre{
   height: auto;
   z-index: 0;
-  background: rgb(41, 41, 41);
+  background: #292929;
   padding: 5%;
 
   .Paragrafo{
