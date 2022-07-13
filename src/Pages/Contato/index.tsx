@@ -9,13 +9,13 @@ return(
 <div className='todoCont'>
 
   <header className='header-contato'>
-    <Link to="/portfolio/Home">
-      <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />
+    <Link to="/portfolio/Home" >
+      <CaretCircleLeft className='Button' color="#ffffff" id="back" style={{marginLeft: '20px'}} />
     </Link>
 
     <strong>vamos trabalhar <span>juntos?</span></strong>
 
-    <Link to='/portfolio/'>
+    <Link to='/portfolio/' id='Logo-hidden'>
       <img src={logo} alt="" style={{height: '50px', marginRight: '20px'}} />
     </Link>
 

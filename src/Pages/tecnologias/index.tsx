@@ -41,9 +41,12 @@ export function Tecnologias() {
         <div className='Tecnologias'>
           <strong id='Font'>&#36;&#123; Tecnologias &#125;</strong>
           <div>
-            <section>
+            <section style={{width: '500px', color: '#8a000000'}} id='sectionUm'>ldadawadwwlkjf</section>
+
+            
+            <section id='html'>
               <p>Html</p>
-                <img src={html} alt="Html-icon"  id='html'/>
+                <img src={html} alt="Html-icon"  />
             </section>
             <section>
               <p>Css</p>

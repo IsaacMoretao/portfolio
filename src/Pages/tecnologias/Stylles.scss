@@ -20,7 +20,6 @@
   margin-left: 10%;
   border-bottom: 2px solid rgb(138, 0, 0);
   padding-bottom: 50px;
-  
 
   div{
     display: flex;
@@ -28,7 +27,6 @@
     justify-content: space-evenly;
     margin-right: 10%;
     height: 150px;
-    
     overflow-y: hidden;
 
     img{
@@ -43,7 +41,11 @@
       display: flex;
       justify-content: space-evenly;
       flex-direction: column;
-      align-items: center;
+      align-items: flex;
+      
+      #html{
+        margin-left: 1000px;
+      }
 
       p{
         text-align: center;
@@ -109,15 +111,25 @@
 @media (max-width: 999px) {
   .Tecnologias{
     margin-left: 0%;
+    width: 100%;
+    
     div{
+      display: flex;
+      margin-left: auto;
+      width: 89%;
       overflow-x: scroll;
       margin-right: 0%;
+
     }
   }
 }
 @media (max-width: 699px) {
   .BodyTec{
     height: 280vh;
+
+    #sectionUm{
+      letter-spacing: 20px
+    }
   }
 }
 @media (max-width: 599px) {
@@ -127,6 +139,18 @@
     #Font{
       font-size: 25px;
     }
+
+    #sectionUm{
+      letter-spacing: 30px
+    }
   }
+}
+@media (max-width: 450px) {
+
+  #sectionUm{
+    letter-spacing: 80px;
+    padding-right: 30px;
+  }
+
 }
 

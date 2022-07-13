@@ -51,7 +51,7 @@ return(
   </div>
   <div className='MaisSobre'>
     <p className='Paragrafo'>
-      &#36;&#123;<strong> mais sobre mim </strong>&#125;
+      &#36;&#123; mais sobre mim &#125;
     </p>
     <div>
 

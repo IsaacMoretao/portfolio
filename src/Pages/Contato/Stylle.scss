@@ -171,12 +171,13 @@
 
 @media (max-width: 550px) {
   .header-contato {
-    strong {
     
-      span {
-        
-        font-size: 40px
-      }
+    strong {
+      overflow-x: hidden;
+      width: 0px;
+    
+      
     }
+ 
   }
 }
