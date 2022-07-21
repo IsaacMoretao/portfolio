@@ -8,6 +8,10 @@ import logo from '../../Assets/logo.png';
 
 import { CaretCircleLeft } from 'phosphor-react';
 import { Link } from 'react-router-dom';
+import projectUm from '../../Assets/ProjectDestack.png'
+
+import projectDois from '../../Assets/Destaque-2.png'
+import projectTres from '../../Assets/DestackProject-3.png' 
 
 type Repository = {
   name: string;
@@ -26,8 +30,9 @@ export function Project() {
         setRepositories(data)
       })
     }, [])
+
   return(
-  <body className="Project">
+  <body >
     <div className="Project">
 
       <header className='headerProjects'>
@@ -57,6 +62,34 @@ export function Project() {
           
           )
         })}
+      </div>
+
+      <div className='Destaque'>
+
+        
+        <section className='projeto-1' >
+          <header>Brazilian</header>
+          <img src={projectUm} alt="Project" />
+          <footer>
+            Privado
+          </footer>
+        </section>
+
+        <section className='projeto-1' >
+          <header>React-Js</header>
+          <img src={projectDois} alt="Project" />
+          <footer>
+            <a href="https://github.com/IsaacMoretao/ReactJS" target="_blank">Projeto</a>
+            
+          </footer>
+        </section>
+        <section className='projeto-1' >
+          <header>Hooks</header>
+          <img src={projectTres} alt="Project" />
+          <footer>
+            <a href="https://github.com/IsaacMoretao/Hooks" target="_blank">Projeto</a>
+          </footer>
+        </section>
       </div>
         
     </div>
