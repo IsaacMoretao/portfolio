@@ -5,8 +5,9 @@ export function InicialPage() {
   return (
     <body>
       <div className='inicial-page'>
-        <Link to={'/portfolio/Home'}>
+        <Link to={'/portfolio/'}>
           <div className='div-principal'></div>
+          <h2>Click aqui</h2>
         </Link>
       </div>
     </body>
