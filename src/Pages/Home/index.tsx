@@ -13,9 +13,9 @@ export function Home() {
       <div className="Home-Body">
         
         <header className="H-red">
-          <Link to={'/portfolio/'} className='div-Logo'>
+          <figure className='div-Logo'>
             <img src={Logo} alt="" />
-          </Link>
+          </figure>
           
           <Link to='/portfolio/Home/Contato'>
             <BotaoLink text={'CONTATO'} posição={'horizontal-tb'} height={'48px'} width={'150px'} />

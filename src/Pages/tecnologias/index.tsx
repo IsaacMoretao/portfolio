@@ -23,7 +23,7 @@ export function Tecnologias() {
     <body>
       <div className='BodyTec'>
       <header className='headerProjects'>
-        <Link to='/portfolio/Home' >
+        <Link to='/portfolio/' >
          <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />
         </Link>
         
@@ -31,9 +31,9 @@ export function Tecnologias() {
           <img src={Isaac} alt="Logo-Isaac" />
         </Link>
         
-        <Link to='/portfolio/'>
+        <figure>
           <img src={logo} alt="" />
-        </Link>
+        </figure>
         
         
         </header>

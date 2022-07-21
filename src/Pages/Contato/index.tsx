@@ -9,15 +9,15 @@ return(
 <div className='todoCont'>
 
   <header className='header-contato'>
-    <Link to="/portfolio/Home" >
+    <Link to="/portfolio/" >
       <CaretCircleLeft className='Button' color="#ffffff" id="back" style={{marginLeft: '20px'}} />
     </Link>
 
     <strong>vamos trabalhar <span>juntos?</span></strong>
 
-    <Link to='/portfolio/' id='Logo-hidden'>
+    <figure id='Logo-hidden'>
       <img src={logo} alt="" style={{height: '50px', marginRight: '20px'}} />
-    </Link>
+    </figure>
 
   </header>
 

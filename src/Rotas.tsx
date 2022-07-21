@@ -11,8 +11,7 @@ function Rotas() {
 
   return (
     <Routes>
-      <Route path="/portfolio/" element={<InicialPage />} />
-      <Route path="/portfolio/Home" element={<Home />} />
+      <Route path="/portfolio/" element={<Home />} />
       <Route path="/portfolio/Home/Project" element={<Project />} />
       <Route path="/portfolio/Home/Contato" element={<Contato />} />
       <Route path="/portfolio/Home/Tecnologias" element={<Tecnologias />} />
