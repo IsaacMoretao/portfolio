@@ -50,9 +50,9 @@ return(
     </aside>
   </div>
   <div className='MaisSobre'>
-    <p className='Paragrafo'>
+    <strong className='Paragrafo'>
       &#36;&#123; mais sobre mim &#125;
-    </p>
+    </strong>
     <div>
 
       <Usados Name={'Programação'} text={'Expecialização: ReactJS '}
