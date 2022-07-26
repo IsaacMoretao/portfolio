@@ -41,7 +41,7 @@ export function Project() {
         </Link>
         
         <Link to='/portfolio/Home/contato'>
-          <img src={Isaac} alt="Logo-Isaac" />
+          <span>Isaac</span>
         </Link>
         
         <figure>

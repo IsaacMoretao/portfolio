@@ -1,4 +1,5 @@
 import './Stilles.scss';
+
 import Pessoa from '../../Assets/pessoa.png';
 import { Usados } from '../../Components/MaisUsados/index';
 import { Link } from 'react-router-dom';
@@ -6,6 +7,8 @@ import { Link } from 'react-router-dom';
 import { CaretCircleLeft } from 'phosphor-react';
 import Isaac from '../../Assets/Isaac.png';
 import logo from '../../Assets/logo.png';
+
+import Homem from '../../Assets/Homem.png'
 
 export function Sobre() {
 return(
@@ -45,10 +48,9 @@ return(
         <div />
         <img src={Pessoa} alt="" />
       </div>
-      <h1>Isaac Moretão</h1>
-
     </aside>
   </div>
+  <img src={Homem} alt="" className='Homem' />
   <div className='MaisSobre'>
     <strong className='Paragrafo'>
       &#36;&#123; mais sobre mim &#125;

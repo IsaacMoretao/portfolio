@@ -25,6 +25,12 @@
     height: 50px;
     z-index: 100;
   }
+  span{
+    font-family: 'Allura', sans-serif;
+    color: #e1e1e1;
+    font-size: 50px;
+    letter-spacing: 3px;
+  }
   a{
     z-index: 100;
   }
@@ -101,7 +107,10 @@
 
   }
   section:hover {
-    animation: Tremor 0.2s linear;
+    animation: Tremor 0.1s ;
+    transition: 0.2s;
+    height: 320px;
+    width: 250px;
   }
 
   header {
@@ -112,6 +121,7 @@
     padding: 10px;
     font-weight: 700;
     text-transform: uppercase;
+
   }
 
   img{
@@ -235,25 +245,15 @@
 
 @keyframes Tremor {
 
-  0% {
-    margin-top: 5px
+  from{
+    height: 300px;
+    width: 230px;
   }
-
-  25% {
-    margin-top: -5px
+  to{
+    height: 320px;
+    width: 250px;
   }
-
-  50% {
-    margin-top: 10px
-  }
-
-  75% {
-    margin-top: -10px
-  }
-
-  100% {
-    margin-top: 0px
-  }
+  
 }
 
 @media (max-width: 550px) {
