@@ -3,7 +3,6 @@ import ReactJs from '../../Assets/React-icon.png';
 import { Projeto } from '../../Components/project/Index';
 
 import { useEffect, useState } from 'react';
-import Isaac from '../../Assets/Isaac.png';
 import logo from '../../Assets/logo.png';
 
 import { CaretCircleLeft } from 'phosphor-react';
@@ -11,7 +10,7 @@ import { Link } from 'react-router-dom';
 import projectUm from '../../Assets/ProjectDestack.png'
 
 import projectDois from '../../Assets/Destaque-2.png'
-import projectTres from '../../Assets/DestackProject-3.png' 
+import projectTres from '../../Assets/NetflixProject.png' 
 
 type Repository = {
   name: string;
@@ -84,10 +83,10 @@ export function Project() {
           </footer>
         </section>
         <section className='projeto-1' >
-          <header>Hooks</header>
+          <header>NETFLIX</header>
           <img src={projectTres} alt="Project" />
           <footer>
-            <a href="https://github.com/IsaacMoretao/Hooks" target="_blank">Projeto</a>
+            <a href="https://isaacmoretao.github.io/Netflix/" target="_blank">Projeto</a>
           </footer>
         </section>
       </div>
