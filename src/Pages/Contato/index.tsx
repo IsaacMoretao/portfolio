@@ -31,8 +31,12 @@ return(
     <section>
       <article>
 
-        <h1>Telefone</h1>
-        <p>&nbsp;Estarei disponivel em horário comercial, de segunda a sexta</p>
+        <h1>
+          Telefone
+        </h1>
+        <p>
+          &nbsp;Estarei disponivel em qualquer horario, de segunda a domingo
+        </p>
         <a href="https://web.whatsapp.com/send?phone=+5511999899429" target="_blank">
           <b>
             <Phone size={32} style={{ marginBottom: '-8px'}}/>(11) 99989-9429
