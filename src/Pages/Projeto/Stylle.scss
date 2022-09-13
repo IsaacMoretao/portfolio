@@ -1,4 +1,3 @@
-
 .Project {
   background: url('../../assets/BackgroundProjects.jpg') no-repeat center center;
   background-size: cover;
@@ -13,9 +12,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   height: 70px;
   background: #13131383;
   width: 100%;
+
   border-bottom: 1px solid white;
   z-index: 10;
   animation: headerStyle 0.5s;
