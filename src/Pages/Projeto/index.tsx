@@ -2,15 +2,13 @@ import './Stylle.scss';
 import ReactJs from '../../Assets/React-icon.png';
 import { Projeto } from '../../Components/project/Index';
 
+import { ProjectStars } from '../../Components/ProjectStars/Index';
 import { useEffect, useState } from 'react';
 import logo from '../../Assets/logo.png';
 
 import { CaretCircleLeft } from 'phosphor-react';
 import { Link } from 'react-router-dom';
-import projectUm from '../../Assets/ProjectDestack.png'
 
-import projectDois from '../../Assets/Destaque-2.png'
-import projectTres from '../../Assets/NetflixProject.png' 
 
 type Repository = {
   name: string;
@@ -36,7 +34,7 @@ export function Project() {
 
       <header className='headerProjects'>
         <Link to='/portfolio/' >
-         <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />
+          <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />
         </Link>
         
         <Link to='/portfolio/Home/contato'>
@@ -63,33 +61,9 @@ export function Project() {
         })}
       </div>
 
-      <div className='Destaque'>
 
-        
-        <section className='projeto-1' >
-          <header>Brazilian</header>
-          <img src={projectUm} alt="Project" />
-          <footer>
-            Privado
-          </footer>
-        </section>
 
-        <section className='projeto-1' >
-          <header>React-Js</header>
-          <img src={projectDois} alt="Project" />
-          <footer>
-            <a href="https://github.com/IsaacMoretao/ReactJS" target="_blank">Projeto</a>
-            
-          </footer>
-        </section>
-        <section className='projeto-1' >
-          <header>NETFLIX</header>
-          <img src={projectTres} alt="Project" />
-          <footer>
-            <a href="https://isaacmoretao.github.io/Netflix/" target="_blank">Projeto</a>
-          </footer>
-        </section>
-      </div>
+      <ProjectStars/>
         
     </div>
   </body>

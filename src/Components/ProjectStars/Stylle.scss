@@ -1,0 +1,80 @@
+.Principais{
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.articleProjects{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+
+  margin-bottom: 1rem;
+  justify-items: center;
+  margin: 0% 5%;
+
+
+  a{
+    display: grid;
+    justify-content: center;
+
+    align-items: center;
+    border-radius: 10px;
+    z-index: 100;
+    
+  };
+ 
+
+  a:nth-child(2) {
+    grid-column: 2 / 4;
+    grid-row: span 3;
+  
+  }
+
+  section{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+    
+    
+
+    img{
+      width: 100%;
+    
+
+    }
+
+    span{
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      border-radius: 10px;
+      background:#00000077;
+      font-weight: 700;
+      font-size: 20px;
+
+      position: absolute;
+      transition: 0.5s;
+      height: 100%;
+      width: 100%
+
+    }
+
+    span:hover {
+      background: #ffffff5c;
+      color: #000;
+
+    }
+
+  }
+
+}
