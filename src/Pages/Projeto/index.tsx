@@ -47,6 +47,7 @@ export function Project() {
         
       </header>
 
+      <ProjectStars/>
 
       <div className='backGround-react'>
         <img src={ReactJs}/>
@@ -60,13 +61,11 @@ export function Project() {
           )
         })}
       </div>
-
-
-
-      <ProjectStars/>
-        
+ 
     </div>
+
   </body>
+  
   )
 
 }
