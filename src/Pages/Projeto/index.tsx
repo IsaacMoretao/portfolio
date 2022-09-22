@@ -1,5 +1,5 @@
 import './Stylle.scss';
-import ReactJs from '../../Assets/React-icon.png';
+import ReactJs from '../../Assets/ReactJS.svg';
 import { Projeto } from '../../Components/project/Index';
 
 import { ProjectStars } from '../../Components/ProjectStars/Index';

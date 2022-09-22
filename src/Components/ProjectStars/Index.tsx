@@ -1,8 +1,8 @@
 import './Stylle.scss';
-import projetoA from '../../Assets/ProjetoMusic.png';
-import projetoB from '../../Assets/ProjetoInsta-dog.png';
-import projetoC from '../../Assets/ProjetoTesla.png';
-import projetoD from '../../Assets/NetflixProject.png';
+import projetoA from '../../Assets/Proj/ProjetoMusic.png';
+import projetoB from '../../Assets/Proj/ProjetoInsta-dog.png';
+import projetoC from '../../Assets/Proj/ProjetoTesla.png';
+import projetoD from '../../Assets/Proj/NetflixProject.png';
 
 export function ProjectStars() {
   return(

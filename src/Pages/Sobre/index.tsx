@@ -9,6 +9,7 @@ import Isaac from '../../Assets/Isaac.png';
 import logo from '../../Assets/logo.png';
 
 import Homem from '../../Assets/Homem.png'
+import { Certificados } from '../../Components/Certificados/Index';
 
 export function Sobre() {
 return(
@@ -50,9 +51,10 @@ return(
       </div>
     </aside>
   </div>
+  <Certificados/>
   <img src={Homem} alt="" className='Homem' />
   <div className='MaisSobre'>
-    <strong className='Paragrafo'>
+    <strong className='Chavs'>
       &#36;&#123; mais sobre mim &#125;
     </strong>
     <div>

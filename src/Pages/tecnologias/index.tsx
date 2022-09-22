@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom';
 import Isaac from '../../Assets/Isaac.png';
 import logo from '../../Assets/logo.png';
 
-import html from '../../Assets/html-5.png';
-import css from '../../Assets/css-3.png';
-import js from '../../Assets/js.png';
-import typescript from '../../Assets/typescript.png';
+import html from '../../Assets/Tec/html-5.png';
+import css from '../../Assets/Tec/css-3.png';
+import js from '../../Assets/Tec/js.png';
+import typescript from '../../Assets/Tec/typescript.png';
 
 import react from '../../Assets/structure.png';
 import Next from '../../Assets/free_icon_1.svg';
-import scss from '../../Assets/sass.png';
-import tailwind from '../../Assets/tailwind-css.png';
+import scss from '../../Assets/Tec/sass.png';
+import tailwind from '../../Assets/Tec/tailwind-css.png';
 
 import './Stylles.scss';
 import { Usados } from '../../Components/MaisUsados';

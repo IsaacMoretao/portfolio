@@ -5,9 +5,11 @@
   position: relative;
   min-height: 80vh;
   color: #d3d4d4;
+  
   display: flex;
   box-shadow: #00000070 0px 10px 10px;
   z-index: 10;
+  padding: 50px 0;
 
   article{
     display: flex;
@@ -34,17 +36,20 @@
       -webkit-text-fill-color: transparent;
       
     }
+
   }
+
 }
+
 .Asside{
   display: flex;
-    height: 100%;
-    width: 50%;
-    margin-left: auto;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
+  height: 100%;
+  width: 50%;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
 
   div{
     width: 300px;
