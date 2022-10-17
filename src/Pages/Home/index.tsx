@@ -3,14 +3,28 @@ import Logo from '../../Assets/logo.png';
 import './Stylles.scss';
 import { Link } from 'react-router-dom';
 import { WhatsappLogo, LinkedinLogo, InstagramLogo, GithubLogo } from 'phosphor-react';
+import { useState } from 'react';
 
 
 
 export function Home() {
+  const [Load, setLoad] = useState('flex')
+  const [Page, setPage] = useState('none')
+
+  function handleLoad(){
+    setPage('block')
+    setLoad('none')
+
+  }
 
   return(
     <body>
-      <div className="Home-Body">
+
+      <figure style={{display: `${Load}`}} className='Loading'>
+        carregando...
+      </figure>
+
+      <div className="Home-Body" style={{display: `${Page}`}} onLoad={handleLoad}>
         
         <header className="H-red">
           <figure className='div-Logo'>

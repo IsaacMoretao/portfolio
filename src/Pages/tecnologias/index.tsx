@@ -15,13 +15,26 @@ import tailwind from '../../Assets/Tec/tailwind-css.png';
 
 import './Stylles.scss';
 import { Usados } from '../../Components/MaisUsados';
+import { useState } from 'react';
 
 export function Tecnologias() {
 
+  const [Load, setLoad] = useState('flex')
+  const [Page, setPage] = useState('none')
+
+  function handleLoad(){
+    setPage('block')
+    setLoad('none')
+  }
 
   return(
     <body>
-      <div className='BodyTec'>
+
+      <figure style={{display: `${Load}`}} className='Loading'>
+        carregando...
+      </figure>
+
+      <div style={{display: `${Page}`}} className='BodyTec' onLoad={handleLoad}>
       <header className='headerProjects'>
         <Link to='/portfolio/' >
          <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />

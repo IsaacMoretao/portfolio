@@ -19,6 +19,8 @@ type Repository = {
 export function Project() {
 
     const [repositories, setRepositories] = useState<Repository[]>([])
+    const [Load, setLoad] = useState('flex')
+    const [Page, setPage] = useState('none')
   
     useEffect(() => {
       fetch('https://api.github.com/users/IsaacMoretao/repos')
@@ -28,9 +30,23 @@ export function Project() {
       })
     }, [])
 
+
+  
+    function handleLoad(){
+      setPage('block')
+      setLoad('none')
+  
+    }
+  
+
   return(
   <body >
-    <div className="Project">
+
+    <figure style={{display: `${Load}`}} className='Loading'>
+      carregando...
+    </figure>
+
+    <div className="Project" onLoad={handleLoad}>
 
       <header className='headerProjects'>
         <Link to='/portfolio/' >
