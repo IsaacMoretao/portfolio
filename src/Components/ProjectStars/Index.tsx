@@ -4,6 +4,7 @@ import projetoB from '../../Assets/Proj/ProjetoInsta-dog.png';
 import projetoC from '../../Assets/Proj/ProjetoTesla.png';
 import projetoD from '../../Assets/Proj/NetflixProject.png';
 import projetoE from '../../Assets/Proj/DesignSistem.png';
+import projetoF from '../../Assets/Proj/Letmeask.png';
 import { useState } from 'react';
 
 export function ProjectStars() {
@@ -63,10 +64,10 @@ export function ProjectStars() {
             </section>
           </a>
     
-          <a target="_blank">
+          <a href="https://github.com/IsaacMoretao/Letmeask" target="_blank">
             <section>
-              <figure/>
-              <span>em breve</span>
+            <img src={projetoF} alt="Letmeask" />
+              <span>Letmeask</span>
             </section>
           </a>
     
