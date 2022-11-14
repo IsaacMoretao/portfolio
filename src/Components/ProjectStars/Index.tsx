@@ -5,6 +5,7 @@ import projetoC from '../../Assets/Proj/ProjetoTesla.png';
 import projetoD from '../../Assets/Proj/NetflixProject.png';
 import projetoE from '../../Assets/Proj/DesignSistem.png';
 import projetoF from '../../Assets/Proj/Letmeask.png';
+import projetoG from '../../Assets/Proj/Mobile.png';
 import { useState } from 'react';
 
 export function ProjectStars() {
@@ -73,8 +74,8 @@ export function ProjectStars() {
     
           <a target="_blank">
             <section>
-              <figure/>
-              <span>em breve</span>
+              <img src={projetoG} alt="" />
+              <span>&lt; NLW &frasl;&gt; Copa</span>
             </section>
           </a>
     
